@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>WuWuWu | Front-End Developer</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href=" ">
+            <i class="fas fa-code me-2"></i>WuWuWu
+        </a >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a ></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a ></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a ></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a ></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a ></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container text-center text-white">
+        <h1 class="display-4 fw-bold">Build Modern Websites That Work on All Devices</h1>
+        <p class="lead mt-3">Business Websites · Responsive Design · H5 Landing Pages</p >
+        <a href="#contact" class="btn btn-primary btn-lg mt-4">Get a Free Quote <i class="fas fa-arrow-right ms-2"></i></a >
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                < img src="https://picsum.photos/id/1/600/400" class="img-fluid rounded shadow" alt="About WuWuWu">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="fw-bold mb-3">About Me</h2>
+                <p class="lead">Hi, I'm WuWuWu, a front-end developer.</p >
+                <p>I turn ideas into websites. I focus on clean design and smooth user experience. Although I'm early in my journey, I believe every project deserves attention to detail and honest communication.</p >
+                <div class="row mt-4">
+                    <div class="col-sm-6">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> HTML/CSS & Responsive Layout</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Bootstrap Framework</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> jQuery Interactions</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Page Speed Optimization</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Mobile-First Design</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Fast & Clear Communication</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-outline-primary mt-3">Let's Talk <i class="fas fa-comment-dots ms-2"></i></a >
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">What I Can Do</h2>
+            <p class="text-muted">Build your online presence from scratch</p >
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="service-card text-center p-4">
+                    <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                    <h4>Business Websites</h4>
+                    <p>Custom design that works on both desktop and mobile. Clean code, easy to maintain.</p >
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card text-center p-4">
+                    <i class="fas fa-mobile-alt fa-3x text-primary mb-3"></i>
+                    <h4>Mobile Pages</h4>
+                    <p>H5 landing pages, mini program interfaces. Fast loading and smooth interactions.</p >
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-card text-center p-4">
+                    <i class="fas fa-chart-simple fa-3x text-primary mb-3"></i>
+                    <h4>Front-End Optimization</h4>
+                    <p>Improve page speed and basic SEO setup to enhance user experience.</p >
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Recent Work</h2>
+            <p class="text-muted">Click on any card to see project details</p >
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm portfolio-card" data-bs-toggle="modal" data-bs-target="#caseModal" data-title="Tech Company Website" data-desc="A responsive business website for a tech startup. Includes company intro, services, and news sections. Works perfectly on all devices." data-tech="HTML5, CSS3, Bootstrap, jQuery">
+                    < img src="https://picsum.photos/id/20/400/250" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tech Company Website</h5>
+                        <p class="card-text">Business showcase, responsive design</p >
+                        <span class="badge bg-primary">Click for details</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm portfolio-card" data-bs-toggle="modal" data-bs-target="#caseModal" data-title="Personal Portfolio" data-desc="A minimalist portfolio for a designer. Features hover effects and full-screen scrolling." data-tech="HTML5, CSS3, JavaScript">
+                    < img src="https://picsum.photos/id/26/400/250" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Personal Portfolio</h5>
+                        <p class="card-text">Design showcase, smooth interactions</p >
+                        <span class="badge bg-primary">Click for details</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm portfolio-card" data-bs-toggle="modal" data-bs-target="#caseModal" data-title="Restaurant H5 Page" data-desc="A promotional H5 page for a restaurant. Includes brand story, coupon claim, and online reservation." data-tech="HTML5, CSS3, jQuery">
+                    < img src="https://picsum.photos/id/42/400/250" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Restaurant H5 Page</h5>
+                        <p class="card-text">Campaign page, reservation form</p >
+                        <span class="badge bg-primary">Click for details</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Form -->
+<section id="contact" class="contact py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Start Your Project</h2>
+                    <p class="text-muted">Leave a message and I'll get back to you within 24 hours</p >
+                </div>
+                <form id="contactForm">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" rows="4" placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary px-5 py-2">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="formMessage" class="alert mt-3 d-none"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2026 WuWuWu | Front-End Developer</p >
+        <small class="text-muted">Building websites that work everywhere</small>
+        <p class="mt-2"><a href="https://www.fiverr.com/你的用户名" target="_blank" class="text-white-50">Check my Fiverr profile</a ></p >
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="btn btn-primary rounded-circle" style="position: fixed; bottom: 30px; right: 30px; display: none;">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Modal for Case Details -->
+<div class="modal fade" id="caseModal" tabindex="-1" aria-labelledby="caseModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="caseModalLabel">Project Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="caseDesc">Loading...</p >
+                <hr>
+                <p><strong>Technologies used:</strong> <span id="caseTech"></span></p >
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+$(document).ready(function() {
+    $('.portfolio-card').on('click', function() {
+        var title = $(this).data('title');
+        var desc = $(this).data('desc');
+        var tech = $(this).data('tech');
+        $('#caseModalLabel').text(title);
+        $('#caseDesc').text(desc);
+        $('#caseTech').text(tech);
+    });
+});
+</script>
+</body>
+</html>
